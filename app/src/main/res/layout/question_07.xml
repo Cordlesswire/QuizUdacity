@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    style="@style/CardMainStyle">
+    <LinearLayout
+        style="@style/CardMainLayoutStyle">
+        <LinearLayout
+            style="@style/CardHeadLayoutStyle">
+            <TextView
+                style="@style/CardQuestionStyle"
+                android:text="@string/question1" />
+            <ImageView
+                android:id="@+id/btn_question_7"
+                style="@style/CardQuestionButtonStyle"
+                android:onClick="question7"
+                android:src="@drawable/ic_keyboard_arrow_up_black_24dp" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/CardBodyStyle"
+            android:id="@+id/body_question_7">
+            <EditText
+                style="@style/CardAnswerEditStyle"
+                android:hint="hkanjih@gmail.com"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
