@@ -18,7 +18,7 @@
             android:src="@drawable/ic_keyboard_arrow_up_black_24dp" />
     </LinearLayout>
     <LinearLayout
-        style="@style/CardBodyStyle"
+        style="@style/CardBodyStyleOpen"
         android:id="@+id/body_question_1">
         <EditText
             style="@style/CardAnswerEditStyle"

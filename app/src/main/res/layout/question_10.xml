@@ -9,7 +9,7 @@
             style="@style/CardHeadLayoutStyle">
             <TextView
                 style="@style/CardQuestionStyle"
-                android:text="@string/question1" />
+                android:text="@string/question10" />
             <ImageView
                 android:id="@+id/btn_question_10"
                 style="@style/CardQuestionButtonStyle"
@@ -19,10 +19,22 @@
         <LinearLayout
             style="@style/CardBodyStyle"
             android:id="@+id/body_question_10">
-            <EditText
-                style="@style/CardAnswerEditStyle"
-                android:hint="hkanjih@gmail.com"
-                android:inputType="textEmailAddress"/>
+            <CheckBox
+                style="@style/CardAnswerRadioStyle"
+                android:text="@string/answer1q10"
+                />
+            <CheckBox
+                style="@style/CardAnswerRadioStyle"
+                android:text="@string/answer2q10"
+                />
+            <CheckBox
+                style="@style/CardAnswerRadioStyle"
+                android:text="@string/answer3q10"
+                />
+            <CheckBox
+                style="@style/CardAnswerRadioStyle"
+                android:text="@string/answer4q10"
+                />
         </LinearLayout>
     </LinearLayout>
 </android.support.v7.widget.CardView>

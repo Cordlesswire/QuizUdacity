@@ -9,12 +9,13 @@
             style="@style/CardHeadLayoutStyle">
             <TextView
                 style="@style/CardQuestionStyle"
-                android:text="@string/question1" />
+                android:text="@string/question2"
+                android:onClick="question2"/>
             <ImageView
                 android:id="@+id/btn_question_2"
                 style="@style/CardQuestionButtonStyle"
                 android:onClick="question2"
-                android:src="@drawable/ic_keyboard_arrow_up_black_24dp" />
+                android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
         </LinearLayout>
         <LinearLayout
             style="@style/CardBodyStyle"

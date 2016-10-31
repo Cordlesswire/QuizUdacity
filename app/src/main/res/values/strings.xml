@@ -10,4 +10,17 @@
     <string name="question8">08 - Do you receive Advantages for ?</string>
     <string name="question9">09 - How long is a Jiu Jitsu fight for Adults black belt ?</string>
     <string name="question10">10 - Which are allowed size of match areas ?</string>
+    <string name="answer2points">2 Points</string>
+    <string name="answer3points">3 Points</string>
+    <string name="answer4points">4 Points</string>
+    <string name="answer1q8">When an athlete achieves a takedown and his/her opponent lands back-down, sideways or in sitting position on the ground without stabilizing the position for 3 (three) seconds.</string>
+    <string name="answer2q8">When an athlete, in attempting a single-leg takedown, traps one of the opponent’s legs and causes the opponent to exit the match area to avoid being taken down and oblige the referee to interrupt the match.</string>
+    <string name="answer05minutes">5 Minutes</string>
+    <string name="answer08minutes">8 Minutes</string>
+    <string name="answer10minutes">10 Minutes</string>
+    <string name="answer1q10">Are with 50m2</string>
+    <string name="answer2q10">Area with 64m2</string>
+    <string name="answer3q10">Are with 68m2</string>
+    <string name="answer4q10">Are with 100m2</string>
+
 </resources>

@@ -9,7 +9,8 @@
             style="@style/CardHeadLayoutStyle">
             <TextView
                 style="@style/CardQuestionStyle"
-                android:text="@string/question1" />
+                android:text="@string/question6"
+                android:onClick="question6"/>
             <ImageView
                 android:id="@+id/btn_question_6"
                 style="@style/CardQuestionButtonStyle"
@@ -19,10 +20,18 @@
         <LinearLayout
             style="@style/CardBodyStyle"
             android:id="@+id/body_question_6">
-            <EditText
-                style="@style/CardAnswerEditStyle"
-                android:hint="hkanjih@gmail.com"
-                android:inputType="textEmailAddress"/>
+            <RadioGroup
+                style="@style/CardAnswerRadioStyle">
+                <RadioButton
+                    style="@style/CardAnswerRadioStyle"
+                    android:text="@string/answer2points"/>
+                <RadioButton
+                    style="@style/CardAnswerRadioStyle"
+                    android:text="@string/answer3points"/>
+                <RadioButton
+                    style="@style/CardAnswerRadioStyle"
+                    android:text="@string/answer4points"/>
+            </RadioGroup>
         </LinearLayout>
     </LinearLayout>
 </android.support.v7.widget.CardView>
