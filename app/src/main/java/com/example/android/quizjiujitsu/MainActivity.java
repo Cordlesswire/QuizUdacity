@@ -231,6 +231,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Method to log the answers
+     */
     private void checkAllAnswer(){
         Log.i("Q01", answers.get("q1") != null ? answers.get("q1") : " - " );
         Log.i("Q02", answers.get("q2") != null ? answers.get("q2") : " - ");
@@ -248,6 +251,11 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Q10_04", answers.get("q10_04") != null ? answers.get("q10_04") : " - ");
     }
 
+    /**
+     * Method that execute the submit and process the score.
+     *
+     * @param view view elemnt
+     */
     public void submit(View view){
         double result = 0;
 

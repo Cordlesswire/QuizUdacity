@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Jiu Jitsu</string>
+    <string name="total">Sua pontuação:  <xliff:g id="score" example="7">%s</xliff:g></string>
+    <string name="question9">09 - Quanto tempo dura uma luta de Jiu Jitsu de Adultos preta ?</string>
+    <string name="question8">08 - Você recebe vantagem por:</string>
+    <string name="question7">07 - Quantos pontos você recebe por uma raspagem ?</string>
+    <string name="question6">06 - Quantos pontos vale joelho na barriga ?</string>
+    <string name="question5">05 -  Quantos pontos vale a montada ?</string>
+    <string name="question3">03 - Quantos pontos vale passar a guarda ?</string>
+    <string name="question4">04 - Quantos pontos vale queda ?</string>
+    <string name="question2">02 - Qual é seu e-mail ?</string>
+    <string name="question10">10 - Quais são tamanhos de area de lutas permitidos</string>
+    <string name="question1">01 - Qual é seu nome ?</string>
+    <string name="answer4q10">Area com 100m2</string>
+    <string name="answer4points">4 Pontos</string>
+    <string name="answer3q10">Area com 68m2</string>
+    <string name="answer3points">3 Pontos</string>
+    <string name="answer2q8">Quando o atleta na tentativa de um single-leg aprisiona uma perna do adversário e leva o adversário a andar para fora da área de luta para evitar ser derrubado, obrigando o árbitro a interromper o combate.</string>
+    <string name="answer2q10">Area com 64m2</string>
+    <string name="answer2points">2 Pontos</string>
+    <string name="answer1q8">Quando o atleta projeta o adversário de costas, de lado ou sentado e o adversário se levanta em menos de 3 (três) segundos.</string>
+    <string name="answer1q10">Area com 50m2</string>
+    <string name="answer10minutes">10 minutos</string>
+    <string name="answer08minutes">8 minutos</string>
+    <string name="answer05minutes">5 minutos</string>
+</resources>

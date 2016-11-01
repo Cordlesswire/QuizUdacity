@@ -7,9 +7,9 @@
     <string name="question5">05 - How many points for "Mount" ?</string>
     <string name="question6">06 - How many point for "Knee on belly" ?</string>
     <string name="question7">07 - How many points for "Sweep" ?</string>
-    <string name="question8">08 - Do you receive Advantages for ?</string>
+    <string name="question8">08 - Do you receive Advantages for:</string>
     <string name="question9">09 - How long is a Jiu Jitsu fight for Adults black belt ?</string>
-    <string name="question10">10 - Which are allowed size of match areas ?</string>
+    <string name="question10">10 - Which are allowed size of match areas :</string>
     <string name="answer2points">2 Points</string>
     <string name="answer3points">3 Points</string>
     <string name="answer4points">4 Points</string>
@@ -20,8 +20,8 @@
     <string name="answer10minutes">10 Minutes</string>
     <string name="answer1q10">Are with 50m2</string>
     <string name="answer2q10">Area with 64m2</string>
-    <string name="answer3q10">Are with 68m2</string>
-    <string name="answer4q10">Are with 100m2</string>
-    <string name="total">Your scores was <xliff:g id="score" example="7">%s</xliff:g></string>
+    <string name="answer3q10">Area with 68m2</string>
+    <string name="answer4q10">Area with 100m2</string>
+    <string name="total">Your score:  <xliff:g id="score" example="7">%s</xliff:g></string>
 
 </resources>
