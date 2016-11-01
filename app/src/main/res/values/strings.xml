@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Quiz Jiu Jitsu</string>
     <string name="question1">01 - What is your name ?</string>
     <string name="question2">02 - What is your email ?</string>
@@ -22,5 +22,6 @@
     <string name="answer2q10">Area with 64m2</string>
     <string name="answer3q10">Are with 68m2</string>
     <string name="answer4q10">Are with 100m2</string>
+    <string name="total">Your scores was <xliff:g id="score" example="7">%s</xliff:g></string>
 
 </resources>

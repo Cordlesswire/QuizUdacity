@@ -20,20 +20,28 @@
             style="@style/CardBodyStyle"
             android:id="@+id/body_question_10">
             <CheckBox
+                android:id="@+id/checkbox_q10_1"
                 style="@style/CardAnswerRadioStyle"
                 android:text="@string/answer1q10"
+                android:onClick="checkBoxClicked10"
                 />
             <CheckBox
+                android:id="@+id/checkbox_q10_2"
                 style="@style/CardAnswerRadioStyle"
                 android:text="@string/answer2q10"
+                android:onClick="checkBoxClicked10"
                 />
             <CheckBox
+                android:id="@+id/checkbox_q10_3"
                 style="@style/CardAnswerRadioStyle"
                 android:text="@string/answer3q10"
+                android:onClick="checkBoxClicked10"
                 />
             <CheckBox
+                android:id="@+id/checkbox_q10_4"
                 style="@style/CardAnswerRadioStyle"
                 android:text="@string/answer4q10"
+                android:onClick="checkBoxClicked10"
                 />
         </LinearLayout>
     </LinearLayout>

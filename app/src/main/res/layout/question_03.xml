@@ -23,14 +23,20 @@
            <RadioGroup
                style="@style/CardAnswerRadioStyle">
                <RadioButton
+                   android:id="@+id/radio_q3_2points"
                    style="@style/CardAnswerRadioStyle"
-                   android:text="@string/answer2points"/>
+                   android:text="@string/answer2points"
+                   android:onClick="radioButtonClickedQ3"/>
                <RadioButton
+                   android:id="@+id/radio_q3_3points"
                    style="@style/CardAnswerRadioStyle"
-                   android:text="@string/answer3points"/>
+                   android:text="@string/answer3points"
+                   android:onClick="radioButtonClickedQ3"/>
                <RadioButton
+                   android:id="@+id/radio_q3_4points"
                    style="@style/CardAnswerRadioStyle"
-                   android:text="@string/answer4points"/>
+                   android:text="@string/answer4points"
+                   android:onClick="radioButtonClickedQ3"/>
            </RadioGroup>
         </LinearLayout>
     </LinearLayout>

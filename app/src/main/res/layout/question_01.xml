@@ -21,9 +21,11 @@
         style="@style/CardBodyStyleOpen"
         android:id="@+id/body_question_1">
         <EditText
+            android:id="@+id/edit_question_1"
             style="@style/CardAnswerEditStyle"
             android:inputType="textCapWords"
-            android:hint="Kanji Hara Neto" />
+            android:hint="Kanji Hara Neto"
+            />
     </LinearLayout>
 </LinearLayout>
 </android.support.v7.widget.CardView>

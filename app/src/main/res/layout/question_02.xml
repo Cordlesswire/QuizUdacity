@@ -21,6 +21,7 @@
             style="@style/CardBodyStyle"
             android:id="@+id/body_question_2">
             <EditText
+                android:id="@+id/edit_question_2"
                 style="@style/CardAnswerEditStyle"
                 android:hint="hkanjih@gmail.com"
                 android:inputType="textEmailAddress"/>

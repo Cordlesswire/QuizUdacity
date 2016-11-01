@@ -21,13 +21,16 @@
             android:id="@+id/body_question_8"
             >
             <CheckBox
+                android:id="@+id/checkbox_q8_1"
                 style="@style/CardAnswerCheckStyle"
                 android:text="@string/answer1q8"
+                android:onClick="checkBoxClickedQ8"
                />
             <CheckBox
+                android:id="@+id/checkbox_q8_2"
                 style="@style/CardAnswerCheckStyle"
                 android:text="@string/answer2q8"
-                />
+                android:onClick="checkBoxClickedQ8"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.v7.widget.CardView>
