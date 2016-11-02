@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Quiz Jiu Jitsu</string>
     <string name="total">Sua pontuação:  <xliff:g id="score" example="7">%s</xliff:g></string>
     <string name="question9">09 - Quanto tempo dura uma luta de Jiu Jitsu de Adultos preta ?</string>
@@ -9,7 +9,7 @@
     <string name="question5">05 -  Quantos pontos vale a montada ?</string>
     <string name="question3">03 - Quantos pontos vale passar a guarda ?</string>
     <string name="question4">04 - Quantos pontos vale queda ?</string>
-    <string name="question2">02 - Qual é seu e-mail ?</string>
+    <string name="question2">02 - Quem é o primeiro campeão do UFC ?</string>
     <string name="question10">10 - Quais são tamanhos de area de lutas permitidos</string>
     <string name="question1">01 - Qual é seu nome ?</string>
     <string name="answer4q10">Area com 100m2</string>

@@ -23,8 +23,8 @@
             <EditText
                 android:id="@+id/edit_question_2"
                 style="@style/CardAnswerEditStyle"
-                android:hint="hkanjih@gmail.com"
-                android:inputType="textEmailAddress"/>
+                android:hint="Gracie Familly"
+                android:inputType="textCapWords"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.v7.widget.CardView>

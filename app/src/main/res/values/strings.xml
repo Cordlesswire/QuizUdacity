@@ -1,7 +1,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Quiz Jiu Jitsu</string>
     <string name="question1">01 - What is your name ?</string>
-    <string name="question2">02 - What is your email ?</string>
+    <string name="question2">02 - Who is the first UFC champion ?</string>
     <string name="question3">03 - How many points for "Guard pass" ?</string>
     <string name="question4">04 - How many points for Takedown ?</string>
     <string name="question5">05 - How many points for "Mount" ?</string>

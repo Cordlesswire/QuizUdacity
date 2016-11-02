@@ -259,6 +259,12 @@ public class MainActivity extends AppCompatActivity {
     public void submit(View view){
         double result = 0;
 
+        //fix question text logic
+        String answer2 =  answers.get("q2") != null ? answers.get("q2").toUpperCase().trim() : " ";
+        if (("ROYCE GRACIE").equals(answer2) || ("GRACIE ROYCE").equals(answer2)){
+            result ++;
+        }
+
         if (getString(R.string.answer3points).equals(answers.get("q3"))) {
             result ++;
         }
@@ -293,7 +299,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        result = result / 8;
+        result = result / 9;
 
         Log.i("RESULT", String.valueOf(result));
 
